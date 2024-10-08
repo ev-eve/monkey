@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         BotYandex2
 // @namespace    http://tampermonkey.net/
-// @version      2.0
-// @description  Bot for yandex
+// @version      2.1
+// @description  Bot for Yandex
 // @author       Evgeniy Titov
 // @match        https://ya.ru/*
 // @match        https://napli.ru/*
@@ -36,7 +36,6 @@ if (searchBtn !== null) {
 }
 
 // Работаем на главной странице поисковика
-
 if (searchBtn !== null) {
   let i = 0;
   let timerId = setInterval(function() {
